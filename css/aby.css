@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color: #FFF;}
+#container{ margin:auto; 
+width:900px;}
+
+
+#NAME1{height:50px; width:900px;
+background-image:url(../../../kiki/kiki/images/Untitled-9.jpg);}
+
+#NAME{P; color: #F00;
+
+}
+
+#banner{ background-image:url(../../../kiki/kiki/images/BANNER.jpg);
+height:300px;
+}
+
+#smallbanner{ background-image:url(../../../kiki/kiki/images/SMALL%20BANNER4.jpg);
+	 height:150px;
+}
+
+
+#smallbanner3{ background-image: url(../../../kiki/kiki/images/SMALL%20BANNER3.jpg);
+    height:150px;
+
+}
+		
+
+
+#smallbanner4{background-image:url(file:///C|/Users/Michael/Desktop/NGO/NGO/images/SMALL%20BANNER2.jpg);
+      height:150px;
+
+}
+
+
+		
+		
+#navigation{
+height:50px;}
+a:link{color: #FF0; font-size: 20px;
+text-decoration: none;
+background-color: #09F; color: #000;
+
+	  border-radius:0PX;
+	   
+	   }
+	  
+	  a:hover{text-decoration: underline;
+        color: #F00 ;
+		background-color:  #CCC; border: double; border-style:groove;
+}
+
+
+
+#topnav{display:block; float:right; width:600px; font-size:14px; font-family:Georgia, "Times New Roman", Times, serif;}
+#topnav ul, #topnav li{margin:0; padding:0; list-style:none;}
+#topnav li{float:right; margin-right:30px;}
+#topnav li li{margin-right:0;}
+#topnav li span{display:block; margin:5px 0 0 0; padding:0; font-size:12px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; text-transform:lowercase; color:#999999; background-color:#FFFFFF; font-weight:normal; line-height:normal;}
+#topnav li a:link, #topnav li a:visited, #topnav li a:hover{display:block; margin:0; padding:20px 0 0 0; color:#666666; background-color:#FFFFFF; text-transform:uppercase; border-top:2px solid #FFFFFF; font-weight:bold;}
+#topnav ul ul li a:link, #topnav ul ul li a:visited{border:none;}
+#topnav li a:hover, #topnav li.active a{color:#982216; background-color:#FFFFFF; border-top-color:#982216;}
+#topnav li li a:link, #topnav li li a:visited{width:150px; float:none; margin:0; padding:7px 10px; font-size:12px; font-weight:normal; color:#666666; background-color:#F8F8F8; border:none;}
+#topnav li li a:hover{color:#982216; background-color:#F8F8F8;}
+#topnav ul ul{z-index:9999; position:absolute; left:-999em; height:auto; width:170px;}
+#topnav ul ul a{width:140px;}
+#topnav li:hover ul{left:auto;}
+#topnav li:hover{position:static;}
+#topnav li.last{margin-right:0;}
+
+/* ----------------------------------------------Column Navigation------------------------------------- */
+
+#column .subnav{display:block; width:250px; padding:25px; background-color:#F9F9F9; margin-bottom:30px;}
+#column .subnav h2{margin:0 0 20px 0; padding:0 0 14px 0; font-size:20px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#666666; background-color:#F9F9F9; line-height:normal; border-bottom:1px dotted #666666;}
+#column .subnav ul{margin:0; padding:0; list-style:none;}
+#column .subnav li{margin:0 0 3px 0; padding:0;}
+#column .subnav ul ul, #column .subnav ul ul ul, #column .subnav ul ul ul ul, #column .subnav ul ul ul ul ul{border-top:none; padding-top:0;}
+#column .subnav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#777777; background:url("images/red_file.gif") no-repeat 10px center #F9F9F9; text-decoration:none; border-bottom:1px dotted #666666;}
+#column .subnav a:hover{color:#982216; background-color:#F9F9F9;}
+#column .subnav ul ul a, #column .subnav ul ul ul a, #column .subnav ul ul ul ul a, #column .subnav ul ul ul ul ul a{background:url("images/black_file.gif") no-repeat #F9F9F9;}
+#column .subnav ul ul a{padding-left:40px; background-position:30px center;}
+#column .subnav ul ul ul a{padding-left:50px; background-position:40px center;}
+#column .subnav ul ul ul ul a{padding-left:60px; background-position:50px center;}
+#column .subnav ul ul ul ul ul a{padding-left:70px; background-position:60px center;}
+
+
+#center{
+float:left;
+width:600px;
+height: 700px; background-color: #FFF; 
+
+}
+
+#me{ font-size: 24px;
+width:900px;
+height: 300px; background-color: #FFF; 
+
+
+
+}
+
+
+
+#about{ float:right;font:Georgia, "Times New Roman", Times, serif; font-size:13px;
+ background-image:url(../../../kiki/kiki/images/11.jpg);
+width:600px;
+height:650px;
+}
+
+
+
+#him{ float: left; background-image:url(../../../kiki/kiki/images/cont.jpg);
+height:500px;
+width:600px;
+}
+
+
+
+#right{float: left;
+width:250px;
+height:500px;
+ background-color: #FFF; background-image:url(../../../kiki/kiki/images/8.jpg); 
+}
+
+
+#footer{
+height:200; width:900px;
+clear:both;
+background-color:#000; color:#FFF;
+text-align:center;}
+
+
+
+/* unvisited link */
+a:link {
+    color: #FFF;
+}
+
+/* visited link */
+a:visited {
+    color: #FFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #F00;
+}
+
+
+
+
+/* =Hoverbox Code
+----------------------------------------------------------------------*/
+
+.hoverbox
+{
+	cursor: default;
+	list-style: none;
+}
+
+.hoverbox a
+{
+	cursor: default;
+}
+
+.hoverbox a .preview
+{
+	display: none;
+}
+
+.hoverbox a:hover .preview
+{
+	display: block;
+	position: absolute;
+	top: -33px;
+	left: -45px;
+	z-index: 1;
+}
+
+.hoverbox img
+{
+	background: #fff;
+	border-color: #aaa #ccc #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	padding: 2px;
+	vertical-align: top;
+	width: 100px;
+	height: 75px;
+}
+
+.hoverbox li
+{
+	background: #eee;
+	border-color: #ddd #bbb #aaa #ccc;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	display: inline;
+	float: left;
+	margin: 3px;
+	padding: 5px;
+	position: relative;
+}
+
+.hoverbox .preview
+{
+	border-color: #000;
+	width: 200px;
+	height: 150px;
+}

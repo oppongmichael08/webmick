@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ background-image:url(../images/bg.jpg);}
+#container{ margin:auto;
+width:900px;}
+
+#banner{ background-image:url(../images/logo.png);
+	 height:200px;
+}
+		
+		
+#flash{
+		height:150px;}
+		
+		
+#navigation{
+height:50px;}
+
+#left{
+float:left;
+width:300px;
+height:400px;}		
+
+#center{;
+float:left;
+width:300px;
+height:400px;}
+
+#right{;
+float:right;
+width:300px;
+height:400px;}
+
+#footer{
+height:50px;
+clear:both;}
